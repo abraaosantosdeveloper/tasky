@@ -1,0 +1,64 @@
+.tarefa{
+    width: 90%;
+    color: var(--text-grey);
+    display: flex;
+    height: 120px;
+    border-left: 5px solid var(--main-green);
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: all .2s ease;
+    box-shadow: 1px 1px 10px #c9c9c9;
+}
+
+.tarefa:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 2px 20px #c9c9c9;
+}
+
+.task-col-0{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.task-col-1{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    padding: 20px 10px;
+    justify-content: center;
+}
+
+.task-col-2{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.task-checkbox{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.delete-btn{
+    background-color: var(--alert-red);
+    border: 0;
+    outline: 0;
+    width: 90px;
+    height: 35px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .1s ease;
+}
+.delete-btn:hover{
+    background-color: var(--alert-red-darker);
+
+}

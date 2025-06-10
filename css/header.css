@@ -1,0 +1,37 @@
+header{
+    display: grid;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #3e3e3e46;
+    grid-template-columns: 1fr 5fr 1fr;
+    z-index: 10000;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+}
+
+.logo-container > h1 {
+    color: var(--text-grey);
+    font-size: 25px;
+}
+
+.logo{
+    height: 40px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar{
+    height: 35px;
+    width: 35px;
+    margin-left: auto;
+}
